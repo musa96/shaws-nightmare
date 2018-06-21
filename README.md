@@ -23,7 +23,7 @@ for compiling.
 I don't have a good guess, but I believe that the code will be useful to
 somebody.
 
-Have fun,
-Michael Muniko
+Have fun, \
+Michael Muniko \
 13-02-17
    
