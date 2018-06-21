@@ -1,0 +1,17 @@
+Read this file carefully before using the Shaw's Nightmare source code.
+
+The Shaw's Nightmare source code
+Copyright 2017 Mickey Productions
+
+Shaw's Nightmare source code is freeware, that means you can do anything as
+you wish as long as:
+
+- any derivative works are distributed completely free of charge,
+- you acknowledge any use of it,
+- you don't charge for it.
+
+Warranty
+
+I take no responsibility for any damage to your system if you do try to use
+this code. Use at your own risk! 
+
