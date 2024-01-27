@@ -46,7 +46,17 @@ short mapstrings[] =
 	StringE4M6,
 	StringE4M7,
 	StringE4M8,
-	StringE4M9
+	StringE4M9,
+
+	StringE5M1,
+	StringE5M2,
+	StringE5M3,
+	StringE5M4,
+	StringE5M5,
+	StringE5M6,
+	StringE5M7,
+	StringE5M8,
+	StringE5M9
 };
 
 short mapstrings2[] =
