@@ -1,0 +1,73 @@
+MMD by Michael Muniko
+
+MMD programmed by Michael Muniko
+
+--------------------------------
+        About MMD
+--------------------------------
+MMD supports 8 simultaneous channels. It supports Adlib\SB, MT-32 and
+General MIDI.
+
+MMD stands for Michael's Music Driver.
+
+Play and Mseq both take the same command line parameters:
+        Play\Mseq [SNG file][driver]
+        
+        Driver number
+        1 - Adlib\SB
+        2 - MT-32
+        3 - General MIDI
+
+Ex: play s1.sng 1 (this is the default driver)
+
+-------------------------------
+        How to use MSEQ
+-------------------------------
+Main screen:
+N: Start a new song.
+E: Edit track
+R: Record track.
+S: Save song
+L: Load song
+P: Play song
+I: Instrument Editor
+T: Adjust tempo
+Esc: Quit
+
+Editing track screen
+Press any key to insert a note. Press Delete to remove it. Press Enter on
+the keypad to set an event and press + and - on the keypad to adjust it's
+paramanters. If there is no event it will adjust the volume.
+
+Press 1 for staring copying region and 2 for ending copying region. Finally
+press 3 to paste it. 
+
+Instrument Editor
+Press + and - to adjust the settings there. Press Esc to exit it and return
+to the main screen. Press PgUp and PgDn to go up and down an instrument.
+Press Space to test the instrument. Press M to copy an instrument and
+P to paste it. Press U to import an instrument from an IBK file.
+
+
+------------------------------
+        How to use MMD
+------------------------------
+If you want to use MMD in your game you must link with mmd.lib
+
+Add this to the initialization part of your game:
+
+initmmd(musicsource);
+
+To play songs:
+
+loadsong("s3.sng");
+musicstatus = 1;
+musicloop = 1; // optional if you want your song to loop.
+
+Add this to your timer handler
+mmdupdate();
+
+Add this to the uninitalization part of your game:
+
+uninitmmd();
+
